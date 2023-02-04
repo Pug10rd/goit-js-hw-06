@@ -14,9 +14,9 @@ btn.addEventListener('click', changeBtn);
 function changeBtn() {
   //bkgColor.style.backgroundColor = `${getRandomHexColor}`;
   console.log(bkgColor);
-  bkgColor.textContent = getRandomHexColor();
-  document.body.style.backgroundColor = getRandomHexColor();
-  return;
+  const color = getRandomHexColor();
+  bkgColor.textContent = color;
+  document.body.style.backgroundColor = color;
 };
 
 console.log(bkgColor);

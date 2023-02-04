@@ -7,7 +7,7 @@ input.addEventListener('input', changeSize);
 text.style.fontSize = "16px";
 
 function changeSize() {
-    text.style.fontSize = input.value + "px";
+    text.style.fontSize = `${input.value}px`;
 }
 
 console.log(text);
