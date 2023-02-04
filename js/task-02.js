@@ -29,5 +29,5 @@ for (let item of ingredients) {
 
 };
 
-array.append(...ar2);
+fieldIngredients.append(...ar2);
 
